@@ -1,0 +1,208 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    background: #4B0082;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.rodape {
+    background: #4B0082;
+    color:white;
+    text-align: center;
+
+}
+
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#38444d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    
+}
+
+li {
+    float: left;
+}*/
+
+li a, .dropbtn {
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, dropdown:hover .dropbtn {
+    background-color: #4B0082;
+    opacity: 0.7;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .ryu {
+      width: 120px;
+  }
+
+  #user {
+      color: white;
+      position: absolute;
+      right: 35px;
+      display: block;
+      padding: 14px 16px;
+  }
+
+
+body {
+    background-color: #C0C0C0;
+    
+}
+
+.login_body {
+    background-color: #DCDCDC;
+}
+
+body .content {
+    color: #4B0082;
+    position: absolute;
+    top: 250px;
+}
+
+.Tela_Login {
+    background-color: white;
+    position: absolute;
+    border-top: 11px solid #4B0082;
+    border-left: 5px solid #4B0082;
+    border-right: 4px solid #4B0082;
+    border-bottom: 4px solid #4B0082;
+    border-radius: 20px;
+    top: 250px;
+    left: 760px;
+    width: 400px;
+    height: 400px;
+
+}
+
+
+.log_head {
+    background-color: #4B0082;
+    color:white;
+    position: absolute;
+    border-radius: 9px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+#input_login {
+    top:0px;
+    margin-left: 11px;
+    margin-right:17px;
+}
+
+
+
+#input_senha {
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+
+#Entrar {
+
+    margin-left: 270px;
+}
+
+#link_cadastro {
+    margin-left: 20px;
+}
+
+#link_esqueci_senha {
+    margin-left: 20px;
+}
+
+#img_soufuture {
+    width: 200px;
+}
+
+.login_div {
+    margin-top: 10px;
+}
+
+.img_soufuture {
+    width: 180px;
+}
+
+
+#btn_home {
+    margin-left: 20px;
+}
+
+#btn_login {
+    margin-left: 20px;
+}
+
+#btn_sobre {
+    margin-left: 20px;
+}
+
+#listagem {
+    background-color: blue;
+    position: relative;
+    top:250px;
+}
+
