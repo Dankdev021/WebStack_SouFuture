@@ -7,6 +7,6 @@ use App\core\db;
 
 class Curso
 {
-
+    
     
 }
